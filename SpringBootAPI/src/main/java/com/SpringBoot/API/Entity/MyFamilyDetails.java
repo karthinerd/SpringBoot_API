@@ -18,13 +18,13 @@ public class MyFamilyDetails {
 	private int id ;
 	
 	@Column(name = "Person_Name")
-	private String Name;
+	private String name;
 	
 	@Column(name = "Person_Age")
 	private int age;
 	
-	@Column(name = "Person_Age")
-	private int phoneNumber;
+//	@Column(name = "Person_MobileNO")
+//	private long phoneNumber;
 	
 	@Column(name = "Person_Gender")
 	private String gender;
